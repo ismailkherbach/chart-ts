@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
-import { normalize } from 'styled-normalize';
-import { textCss } from '../components/reusable/Layouts';
+import { createGlobalStyle } from "styled-components";
+import { normalize } from "styled-normalize";
+import { textCss } from "../../components/reusable/Layouts";
 
 const GlobalStyle = createGlobalStyle`
     ${normalize};
